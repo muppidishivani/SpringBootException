@@ -49,6 +49,7 @@ public class BookController {
 	@GetMapping("/")
 	public String getForm()
 	{
+		System.out.println("This is SpringBootApplication");
 		return "add-book";
 	}
 	
