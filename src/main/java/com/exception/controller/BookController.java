@@ -50,6 +50,7 @@ public class BookController {
 	public String getForm()
 	{
 		System.out.println("This is SpringBootApplication");
+		System.out.println("This is SpringBootApplication");
 		return "add-book";
 	}
 	
